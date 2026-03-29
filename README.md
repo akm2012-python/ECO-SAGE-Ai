@@ -31,6 +31,46 @@ Environment → Sensors → AI Model → Control Actions → Environment
 
 ---
 
+## Repository Structure
+eco-sage-ai/
+│
+├── README.md
+├── requirements.txt
+├── LICENSE
+│
+├── data/
+│   ├── raw/
+│   ├── processed/
+│   └── simulated_data.csv
+│
+├── simulation/
+│   ├── environment_sim.py
+│   └── plot_data.py
+│
+├── models/
+│   ├── train_model.py
+│   ├── evaluate_model.py
+│   └── saved_models/
+│
+├── iot/
+│   ├── esp32_code.ino
+│   └── sensor_reader.py
+│
+├── dashboard/
+│   ├── app.py
+│   └── templates/
+│
+├── docs/
+│   ├── proposal.pdf
+│   ├── diagrams/
+│   └── daily_logs/
+│
+└── experiments/
+    ├── continual_learning/
+    └── meta_learning/
+    
+---
+
 ## Day 1 Progress
 
 - Created GitHub repository
@@ -94,6 +134,6 @@ This project explores how artificial intelligence can maintain ecological balanc
 
 ## Author
 
-**Aditya Kumar Mohanani**
+**Aditya Mohanani**
 
-Student Research Project for Science Fair / RBVP
+Student Research Project for Science Fair / ISPF
